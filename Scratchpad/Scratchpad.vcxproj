@@ -154,7 +154,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cipher.cpp" />
     <ClCompile Include="Scratchpad.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cipher Program Instructions.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

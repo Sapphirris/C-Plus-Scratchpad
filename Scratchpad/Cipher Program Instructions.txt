@@ -1,0 +1,19 @@
+﻿So I want a program to help me cipher my top-secret spy orders~
+
+It needs to be reversible, the program will be shared with agents in the field (yourself included)
+
+My plan is to use a columnar transposition cipher https://en.m.wikipedia.org/wiki/Transposition_cipher#Columnar_transposition
+but it takes the column size from the longest word in the message plus 2.
+and can have up to three words in a line as long as the following rules are met:
+the line starts with a garbage letter
+there is a garbage letter in between each word
+the resulting line does not extend longer than the longest word in the message plus 2 (that is, one garbage letter either side)
+
+The following additional rules exist:
+garbage letters cannot be vowels
+every line must have the same number of characters, fill the end with garbage characters
+
+use the sample message : this is my secret transmission which I need to tell everyone about trans rights for all
+The message will only include alphabet characters, and should be all uppercase.
+
+For now, all we need is a program that outputs the modified message as a long string. We'll worry about the next phase where we scramble the message later.
