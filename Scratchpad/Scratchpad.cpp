@@ -175,14 +175,3 @@ Vector2 GetVectorFromDegrees(float degrees)
     return return_value;
 }
 
-int main(int argc, char* argv[])
-{
-    Vector2 vector_two;
-
-    cout << "Enter an angle as an integer between 0, and 360." << endl;
-    int integer_Value = GetIntegerBetweenBounds(0, 360);
-    cout << "Value accepted: " << integer_Value << endl;
-    vector_two = GetVectorFromDegrees(integer_Value);
-    cout << "Vector generated. X:" << vector_two.x << ". and Y:" << vector_two.y << "." << endl;
-    return 0;
-}
