@@ -29,6 +29,7 @@ int main(int argc, char* argv[])
         cout << "Key: " << dictionaryOfSamples.at(i).key << " Name: " << dictionaryOfSamples.at(i).name << endl;
     }
 
+    // make code to allow us to search the keys inside the dictionary and retrieve the index, and thus the values inside the dictionary for any given key.
     
     return 0;
 }
